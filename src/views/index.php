@@ -8,11 +8,11 @@
     <body>
         <h1>Liste des recettes</h1>
 
-        <a href="/add.php">Ajouter une recette</a>
+        <a href="/add">Ajouter une recette</a>
         <ul>
             <?php foreach ($recipes as $recipe) : ?>
             <li>
-                <a href="show.php?id=<?= $recipe['id'] ?>">
+                <a href="recipe?id=<?= $recipe['id'] ?>">
                     <?= $recipe['title'] ?>
                 </a>
             </li>

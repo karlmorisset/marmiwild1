@@ -9,7 +9,7 @@
 <body>
     <main>
         <h1>Ajouter une recette</h1>
-        <form action="/add.php" method="POST">
+        <form action="/add" method="POST">
             <div>
                 <label for="title">Nom de la recette</label>
                 <input type="text" id="title" name="title">
